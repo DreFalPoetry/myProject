@@ -1,0 +1,61 @@
+@font-face {font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot'); /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:20px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    }
+.nav_ul li:nth-child(3) a{background: transparent;color: white;}
+.nav_ul li:nth-child(6) a{background: white;color: #666;}
+/*联系我们*/
+.wrap_lianxi{height: 1250px;width: 100%;background: #DCEDF9;}
+.lianxi{height: 1250px;text-align: center;}
+.gong_h1{font-size:26px;font-weight: normal;padding-top: 60px;margin-bottom: 30px;letter-spacing: 5px;color: #6E6E6E;}
+ .gong_p{font-size: 16px;margin-top: 15px;letter-spacing: 1px;color: #B3B3B3;color: #6E6E6E;}
+ .get_touch{width: 1140px;height: 520px;background: white;margin-top: 60px;}
+  .get_touch .left{width: 520px;height: 480px;float: left;padding: 20px;}
+  .get_touch .left:first-child{margin-right: 20px;}
+.contact_dl{text-align: left;}
+.contact_dl dt{font-size: 25px;padding-top: 20px;color: #6E6E6E;}
+.contact_dl dd{font-size: 14px;margin-bottom: 15px;letter-spacing: 2px;color: #6D6D6D;}
+.contact_dl dd:nth-child(2){margin-top: 40px;}
+.address_ul{text-align: left;margin-top: 50px;}
+.address_ul li{margin-bottom: 20px;color: #6D6D6D;font-size: 14px;}
+.radius{width: 40px;height: 40px;border-radius: 100%;background: #F44336;display:inline-block;
+text-align: center;line-height: 40px;color: white;margin-right: 20px;}
+.form_email{text-align: left;}
+.input_one{text-indent: 2em;}
+.form_email div{text-indent: 2em;background: white;}
+.form_email h1{font-size: 25px;font-weight: normal;padding-top: 20px;color: #6E6E6E;}
+.input_one{width: 520px;height: 40px;border: 1px solid #6E6E6E;margin-bottom: 22px;}
+.input_first{margin-top: 40px;}
+.massage{width: 520px;height: 130px;border:1px solid #6E6E6E;padding-top: 20px;}
+.submit{width: 100px;height: 35px;border: 2px solid #6E6E6E;border-radius: 5px;background: white;margin-top: 20px;}
+
+.dizhi{width: 1140px;height: 440px;background: white;margin-top: 50px;text-align: left;}
+.dizhi h1{font-size: 25px;padding-top: 30px;font-weight: normal;margin-left: 28px;margin-bottom: 35px;color: #6E6E6E;}
+.xianshi{width: 1080px;height: 300px;background: #DDDDDD;margin: 0 auto;}
+.xianshi img{width: 100%;height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

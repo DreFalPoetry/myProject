@@ -1,0 +1,47 @@
+.nav_ul li:nth-child(3) a{background: transparent;color: white;}
+.nav_ul li:nth-child(4) a{background: white;color: #666;}
+/*本季热门推荐*/
+.wrap_hot{height: 600px;background: white;width: 100%;}
+.hot{height: 600px;text-align: center;background: white;}
+.hot_p{font-size: 30px;letter-spacing: 5px;padding-top: 50px;}
+.hot_ul li{width: 350px;height: 410px;border:none;float: left;margin-left: 42px;margin-top: 50px;}
+.hot_ul li:first-child{margin-left: 0px;}
+.hot_ul li img{width: 350px;height: 265px;}
+.hot_dl dt{font-size: 18px;margin-top: 20px;margin-bottom: 20px;}
+.hot_dl dd{font-size: 14px;margin-top: 20px;}
+/*驴友动态*/
+.wrap_tuijian{height: 1350px;background: #EEEEEE;}
+.tuijian{height: 1280px;text-align: center;background: #EEEEEE;}
+.new_one{width: 1140px;height: 350px;margin-top: 40px;}
+.new_one img{width: 268px;height: 350px;display: block;float: left;}
+.gong_dl{float: left;width: 260px;height: 350px;border:none;text-align: left;margin-left: 15px;}
+.gong_dl dt{font-size: 18px;margin-top: 20px;letter-spacing: 5px;}
+.gong_dl dd{letter-spacing: 2px;font-size: 14px;margin-top: 20px;color: #999999;}
+.more_btn{width: 92px;height: 29px;border-radius: 5px;background: #B1C8EA;border: none;color: white;cursor: pointer;}
+.new_img{margin-left: 30px;}
+.new_one img.big_img{width: 536px;height: 350px;margin-left: 60px;}
+.new_two{width: 1140px;height: 370px;margin-top: 15px;}
+.new_two img{float: left;}
+.img_left{width: 568px;height: 370px;}
+.img_right{height: 350px;margin-left: 32px;width: 268px;}
+.dl_two{margin-left: 10px;}
+.new_three{margin-top: 15px;}
+/*查看更多分享按钮*/
+.morebtn_one{width: 200px;margin-top: 50px;height: 32px;}
+
+
+/*图片的动态效果*/
+/*.img_hover{transition: transform 0.5s linear;}*/
+.img_hover:hover{transform: scale(1.05);}
+
+
+
+
+
+
+
+
+
+
+
+

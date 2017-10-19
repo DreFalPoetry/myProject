@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/resetone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<span>MyTravel</span>
+				<i>The Best Travel Portal</i>
+			</div>
+			<div class="main">
+				<div class="login_info">
+					<div class="login">
+						<div class="login_text">
+							登录
+						</div>
+						<input type="text" name="" id="user" placeholder="请输入用户名" class="user_ user_1"/>
+						<input type="text" name="" id="passone" placeholder="请输入密码" class="user_ user_2"/>
+						<input type="button" name="" id="" value="登录" class="user_ user_3"/>
+						<p class="forget_"><a href="findpassword.html">忘记密码? </a> <a href="zhuce1.html"><span>注册</span></a></p>
+						<img src="img/user.png" class="login_img lo_user"/>
+						<img src="img/pwd.png" class="login_img lo_pwd"/>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<p>&copy;北京XXX创意软件有限公司 京ICP备0512000005233号-1</p>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/resize1.js"></script>
+	<script type="text/javascript">
+	 $(".user_3").click(function(){
+		  var username=$("#user").val();
+		  var pwd=$("#passone").val();
+		  $.ajax({
+			   type: "POST",
+			   url: "login_do.php",
+			   data: "username="+username+"&pwd="+pwd+"",
+			   success: function(msg){
+			   /*   alert( "返回的后台数:" + msg ); */
+			     if(msg=="aaa"){
+			  			 alert("用户名或密码错误"); 
+			  		}
+		  		else{
+		  			location.href="home.html";
+		  		}
+			   }
+			});
+	  });
+	 /*  $.get("../phpFile/four/remember_do.php", function(data){
+		     var ss=data;
+		     var first=ss.substr(0,11);
+		     var last=ss.substring(11);
+		    $("#user").val(first);
+		    $("#passone").val(last);
+		}); */
+	</script>
+</html>

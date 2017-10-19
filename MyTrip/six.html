@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/resetone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/six.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<!--头部信息-->
+			<div class="wrap_header">
+				<div class="wrap header">
+					<a href="zhuce1.html" class="register">注册</a>
+					<a href="login.html" class="login">登录</a>
+					<ul>
+						<a href="javascript:;"><li></li></a>
+						<a href="javascript:;"><li></li></a>
+						<a href="javascript:;"><li></li></a>
+						<a href="javascript:;"><li></li></a>
+						<a href="javascript:;"><li></li></a>
+					</ul>
+				</div>
+			</div>
+			<!--banner大图-->
+			<div class="wrap_banner">
+				<div class="banner_img">
+					<img src="img/1-1.jpg" class="bann_img1"/>
+				</div>
+				<ul class="nav_ul">
+					<li><a href="home.html">主页</a></li>
+					<li><a href="two.html">沿途风景</a></li>
+					<li><a href="three.html">摄影展示</a></li>
+					<li><a href="four.html">最新动向</a></li>
+					<li><a href="five.html">关于我们</a></li>
+					<li><a href="javascript:;">联系我们</a></li>
+				</ul>
+			</div>
+			<!--联系我们-->
+			<div class="wrap_lianxi">
+				<div class="wrap lianxi">
+					<h1 class="gong_h1">Contact with us</h1>
+					<p class="gong_p">在这里，说出你想说的，我们会认真看每一封来信</p>
+					<div class="get_touch">
+						<div class="left">
+							<dl class="contact_dl">
+								<dt>联系我们</dt>
+								<dd>在这里，您可以写下对我们的意见和建议</dd>
+								<dd>在这里，您可以写下对旅行的感悟分享</dd>
+								<dd>在这里，您可以写下您的梦想与希望</dd>
+								<dd>在这里，您甚至可以写下您的心情与经历</dd>
+								<dd>在这里，我们欢迎并期待您的来信</dd>
+							</dl>
+							<ul class="address_ul">
+								<li><i class="radius"><span class="iconfont icon-dianhua"><span></i>0371-00526304</span></li>
+								<li><i class="radius"><span class="iconfont icon-xinfeng"><span></i>864749024@qq.com</span></li>
+								<li><i class="radius"><span class="iconfont icon-shouye"><span></i>北京市中关村软件园</span></li>
+							</ul>
+						</div>
+						<div class="left">
+							<form class="form_email">
+								<h1 class="">写信给我们</h1>
+								<input type="text" name="" id="" value="姓名" class="input_one input_first"/>
+								<input type="text" name="" id="" value="邮箱" class="input_one"/>
+								<input type="text" name="" id="" value="电话" class="input_one"/>
+								<div class="massage">
+									留言
+								</div>
+								<input type="submit" value="提交" class="submit"/>
+							</form>
+						</div>
+					</div>
+					<div class="dizhi">
+						<h1>我们的地址</h1>
+						<div class="xianshi">
+							<img src="img/dizhi.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--bottom-->
+			<div class="wrap_bottom">
+				<div class="wrap bottom">
+					<div class="bottom_shang">
+						<div class="logo_bottom">
+							MyTravel
+						</div>
+						<div class="address">
+							<ul>
+								<li>Address</li>
+								<li>地址:北京市海淀区中关村</li>
+								<li>联系电话:0371-2205-6544</li>
+								<li>邮箱地址:liuranran@163.com</li>
+								<li>邮编:450062</li>
+							</ul>
+						</div>
+						<div class="contact">
+							<p>Stay in Touch</p>
+							<input type="text" name="" id="" value="邮箱地址" class="txt1"/>
+							<input type="button" name="" id="" value="提交" class="btn1"/>
+						</div>
+					</div>
+					<div class="bottom_xia">
+						<ul>
+							<li><a href="javascript:;">主页</a></li>
+							<li><a href="javascript:;">沿途风景</a></li>
+							<li><a href="javascript:;">摄影展示</a></li>
+							<li><a href="javascript:;">最新动向</a></li>
+							<li><a href="javascript:;">关于我们</a></li>
+							<li><a href="javascript:;">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/search.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/scroll.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		 $.get("remember_do.php", function(data){
+		    var ss=data;
+		    $(".register").text("欢迎你,亲爱的"+ss);
+		    $(".login").addClass("hidden");
+		}); 
+	</script>
+</html>
+
+

@@ -1,0 +1,28 @@
+body,html{height: 100%;width: 100%;overflow: hidden;}
+.clear{clear: both;}
+.container{width: 100%;height: 100%;min-width: 1024px;min-height: 650px;}
+/*头部*/
+.header{height: 60px;width: 100%;min-width: 1024px;background:url(../img/bg_zhuce.png);background-size: cover;}
+.header span{font-family:myfone;font-size: 50px;color: white; line-height: 60px;margin-left: 50px;letter-spacing: 3px;}
+.header i{font-family:myftwo;font-size: 20px;color:#DAE5EF;font-style: normal;margin-left: 20px;}
+
+.server{float: right;color: #9B9997;margin-top: 12px;margin-right: 48px;line-height: 20px;font-size: 14px;}
+.main{width: 100%;height: auto;background:#F6F6F6;min-width: 1024px;min-height: 560px;position: relative;}
+.register{position: absolute;left: 50%;top: 50%;margin-left:-240px;margin-top:-200px;width:480px;height:390px;
+         background: white; border: 1px solid #CCCCCC;}
+.per_massage{height: 75px;border-bottom: 1px solid #CCCCCC;width: 412px;margin: 0 auto;line-height: 75px;font-size: 22px;position:relative;margin-bottom: 25px;}
+.xinxi{width: 68px;height: 40px;line-height: 40px;display: block;text-align: right;margin-left: 40px;float: left;font-size: 14px;color:#373737;}
+.input_text{width: 295px;height: 38px;border: 1px solid #CCCCCC;float: left;border-radius: 5px;margin-left: 15px;font-size: 15px;margin-bottom: 15px;
+			text-indent: 5px;font-family: "宋体";color: #999999;}
+.bd_color1{border: 1px solid #8CE4F4;}
+.bd_color2{border: 1px solid #E92F34;}
+.sure_btn{width: 205px;height: 50px;float: left;margin-left: 125px;}
+.sure_1{width: 110px;height: 40px;border-radius: 3px;background:#65A3CF;border: none;line-height: 40px;text-align: center;color: white;font-size: 14px;display: block;float: left;
+		margin-top: 5px;font-weight: bold;cursor: pointer;}
+.sure_2{margin-left: 15px;background: #B5B4B4;}
+.have_tishi{height: 55px;width: 412px;margin: 0 auto;border-top: 1px solid #CCCCCC;line-height: 55px;text-align: right;margin-top: 10px;}
+.have_tishi span{font-size: 14px;}
+.litter_btn{width:48px;height: 28px;border: 1px solid #CCCCCC;border-radius: 3px;line-height: 26px;text-align: center;margin-right: 20px;
+			font-size: 14px;color: #333333;cursor: pointer;background: white;}
+.tishiyu{position: absolute;color: red;width: 410px;height:25px;line-height: 25px;text-align: center;top: 76px;left: 0px;font-size: 13px;}
+.bottom{width: 100%;height: 30px;background: url(../img/bg_zhuce.png);background-size: cover; line-height: 30px;text-align: center;color:white;}

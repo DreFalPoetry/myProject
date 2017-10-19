@@ -1,0 +1,9 @@
+/*自定义字体*/
+@font-face {
+	font-family:myfone;
+	src:url('../fonts/Dorsa-Regular.ttf');
+}
+@font-face {
+	font-family:myftwo;
+	src: url('OpenSans-Regular.ttf');
+}

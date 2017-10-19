@@ -1,0 +1,29 @@
+$(function(){
+	 //获取验证码60s
+	 var wait=10;
+	 function times(val){
+	 	if(wait==0){
+	 		val.val("发送验证码");
+	 		val.removeAttr("disabled");
+	 		val.addClass("getcolor").removeClass("loosecolor");
+	 		wait=10;
+	 	}
+	 	else{
+	 		val.attr("disabled","disabled");
+	 		val.addClass("loosecolor").removeClass("getcolor");
+	 		setTimeout(function(){
+	 			times(val);
+	 		},1000);
+	 		val.val(wait+"s重新获取");
+	 		wait--;
+	 	}
+	 }
+	 $(".get_ma").click(function(){
+	 	if($(this).attr("disabled")=="disabled"){
+	 		return;
+	 	}
+	 	else{
+	 		times($(this));
+	 	}
+	 });
+});

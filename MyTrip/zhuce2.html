@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/resetone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index_zhuce.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<span>MyTravel</span>
+				<i>The Best Travel Portal</i>
+			</div>
+			<div class="main">
+				<div class="register">
+					<div class="per_massage">
+						注册
+					</div>
+					<div class="clear"></div>
+					<!-- <div class="tishiyu">输入的密码不能为空</div> -->
+					<p class="xinxi">用户名</p>
+					<input type="text" name="" id="phoneNum" placeholder="输入6~14为字母或数字" class="input_text"/>
+					<p class="xinxi">密码</p>
+					<input type="text" name="" id="passone" placeholder="至少6位密码" class="input_text"/>
+					<p class="xinxi">确认密码</p>
+					<input type="text" name="" id="" placeholder="再次输入密码" class="input_text"/>
+					<div class="clear"></div>
+					<div class="sure_btn">
+						<input type="button" name="" id="" value="确认注册" class="sure_1"/>
+					</div>
+					<div class="clear"></div>
+					<div class="have_tishi">
+						<span>我已注册,现在 </span><input type="button" name="" id="" value="登录" class="litter_btn"/>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<p>&copy;北京创意软件有限公司 京ICP备0512000005233号-1</p>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/resize1.js"></script>
+	<script type="text/javascript">
+		  $(".sure_1").click(function(){
+			  var phone=$("#phoneNum").val();
+			  var newpwd=$("#passone").val();
+			  $.ajax({
+				   type: "POST",
+				   url: "register_do.php",
+				   data: "phone="+phone+"&newpwd="+newpwd,
+				   success: function(msg){
+				     if(msg=="aaa"){
+				    	    alert("失败");
+				  		}
+			  		else{
+			  			alert("注册成功，即将进入登录页面");
+			  			setTimeout(function(){
+			  				location.href="login.html";
+			  			},1500);
+			  		}
+				   }
+				});
+		  });
+		</script>
+</html>
